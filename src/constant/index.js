@@ -1,3 +1,19 @@
+// import {
+//   javascript,
+//   typescript,
+//   html,
+//   css,
+//   reactjs,
+//   redux,
+//   tailwind,
+//   nodejs,
+//   mongodb,
+//   git,
+//   figma,
+//   docker,
+//   threejs,
+// } from "/assets/index.js";
+
 export const navLinks = [
     {
       id: 1,
@@ -132,11 +148,11 @@ export const navLinks = [
       ],
     },
     {
-      title: 'PORTFOLIO - a 3d animated portfolio',
-      desc: 'this is my portfolio which describes about me , showcases my projects and my skills',
+      title: 'Zentry - a animated gaming website',
+      desc: 'this is a clone of an award winning website, that is , Zentry .This project was build to learn how to integrate animation in a frontend website using Reactjs and Gsap animation',
       subdesc:
         '',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: '',
       texture: '/textures/project/project1.png',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -286,3 +302,58 @@ export const navLinks = [
       animation: 'salute',
     },
   ];
+
+export const tech = [
+  {
+    name: "HTML 5",
+    icon: '/assets/html.png',
+  },
+  {
+    name: "CSS 3",
+    icon: '/assets/css.png',
+  },
+  {
+    name: "JavaScript",
+    icon: '/assets/javascript.png',
+  },
+  {
+    name: "TypeScript",
+    icon: '/assets/typescript.png',
+  },
+  {
+    name: "React JS",
+    icon: '/assets/reactjs.png',
+  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  {
+    name: "Tailwind CSS",
+    icon:'/assets/tailwind.png',
+  },
+  {
+    name: "Node JS",
+    icon: '/assets/nodejs.png',
+  },
+  {
+    name: "MongoDB",
+    icon: '/assets/mongodb.png',
+  },
+  {
+    name: "Three JS",
+    icon: '/assets/threejs.svg',
+  },
+  {
+    name: "git",
+    icon: '/assets/git.png',
+  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+]
