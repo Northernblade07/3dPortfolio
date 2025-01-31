@@ -73,88 +73,16 @@ export const navLinks = [
   ];
   
   export const myProjects = [
+    
+    
     {
-      title: 'React - TO-Do List',
-      desc: '.',
-      subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project2.png',
-      logo: '/assets/project-logo1.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'LOCALINK - a vendor detecting website',
-      desc: 'this is a fullstack MERN project which focuses on providing feature to a user to searh for a local vendor in a new locality and provides vendor an ability to use online services for better bussiness outcomes ',
-      subdesc:
-        '',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project3.png',
-      logo: '/assets/project-logo2.png',
-      logoStyle: {
-        backgroundColor: '#13202F',
-        border: '0.2px solid #17293E',
-        boxShadow: '0px 0px 60px 0px #2F6DB54D',
-      },
-      spotlight: '/assets/spotlight2.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Zentry - a animated gaming website',
+      title: 'Zentry - animated gaming website',
       desc: 'this is a clone of an award winning website, that is , Zentry .This project was build to learn how to integrate animation in a frontend website using Reactjs and Gsap animation',
       subdesc:
         '',
-      href: '',
-      texture: '/textures/project/project1.png',
-      logo: '/assets/project-logo3.png',
+      href: 'https://zentrygaming.vercel.app/',
+      texture: '/textures/project/project5.png',
+      logo: '/assets/zentry-logo.webp',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -176,53 +104,129 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'javascript',
+          path: '/assets/javascript.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Gsap animation',
+          path: '/assets/gsap.png',
         },
       ],
     },
-    // {
-    //   title: 'Horizon - Online Banking Platform',
-    //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    //   subdesc:
-    //     'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    //   href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    //   texture: '/textures/project/project4.mp4',
-    //   logo: '/assets/project-logo4.png',
-    //   logoStyle: {
-    //     backgroundColor: '#0E1F38',
-    //     border: '0.2px solid #0E2D58',
-    //     boxShadow: '0px 0px 60px 0px #2F67B64D',
-    //   },
-    //   spotlight: '/assets/spotlight4.png',
-    //   tags: [
-    //     {
-    //       id: 1,
-    //       name: 'React.js',
-    //       path: '/assets/react.svg',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'TailwindCSS',
-    //       path: 'assets/tailwindcss.png',
-    //     },
-    //     {
-    //       id: 3,
-    //       name: 'TypeScript',
-    //       path: '/assets/typescript.png',
-    //     },
-    //     {
-    //       id: 4,
-    //       name: 'Framer Motion',
-    //       path: '/assets/framer.png',
-    //     },
-    //   ],
-    // },
+    {
+      title: 'Apple-clone - 3d animated apple wesite',
+      desc: 'this is a clone of official Apple website showcasing iphone 15 pro. I made it to learn more advance frontend technology ,that is , React js including Gsap animation and Three js ',
+      subdesc:
+        '',
+      href: 'https://apple-clone3d.vercel.app/',
+      texture: '/textures/project/project4.png',
+      logo: '/assets/apple-logo.webp',
+      logoStyle: {
+        backgroundColor: '#0E1F38',
+        border: '0.2px solid #0E2D58',
+        boxShadow: '0px 0px 60px 0px #2F67B64D',
+      },
+      spotlight: '/assets/spotlight4.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'three js',
+          path: '/assets/threejs.svg',
+        },
+        {
+          id: 4,
+          name: 'Gsap animation',
+          path: '/assets/gsap.png',
+        },
+      ],
+    },
+    {
+      title: 'LOCALINK - a vendor detecting website',
+      desc: 'this is a fullstack MERN project which focuses on providing feature to a user to searh for a local vendor in a new locality and provides vendor an ability to use online services for better bussiness outcomes ',
+      subdesc:
+        '',
+      href: '',
+      texture: '/textures/project/project3.png',
+      logo: '/assets/logo.png',
+      logoStyle: {
+        backgroundColor: '#13202F',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'mongodb',
+          path: '/assets/mongodb.png',
+        },
+        {
+          id: 4,
+          name: 'express js ',
+          path: '/assets/nodejs.png',
+        },
+      ],
+    },
+    {
+      title: 'React - TO-Do List',
+      desc: 
+      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+      subdesc:
+      ''
+      ,
+      href: '',
+      texture: '/textures/project/project2.png',
+      logo: '/assets/todo-list-logo.webp',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'javaScript',
+          path: '/assets/javascript.png',
+        },
+        // {
+        //   id: 4,
+        //   name: 'Framer Motion',
+        //   path: '/assets/gsap.png',
+        // },
+      ],
+    },
     // {
     //   title: 'Imaginify - AI Photo Manipulation App',
     //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
@@ -324,10 +328,10 @@ export const tech = [
     name: "React JS",
     icon: '/assets/reactjs.png',
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "Gsap",
+    icon: '/assets/gsap.png',
+  },
   {
     name: "Tailwind CSS",
     icon:'/assets/tailwind.png',

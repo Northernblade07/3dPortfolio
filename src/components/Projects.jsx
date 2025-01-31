@@ -33,9 +33,11 @@ if (direction==='previous') {
                     <img src={myProjects[0].spotlight} alt="" className='w-full h-96 object-cover rounded-xl ' />
                 </div>
 
-                <div className='p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg' style={currentProject.logoStyle}>
+                <div className=' backdrop-filter backdrop-blur-3xl w-fit rounded-lg'
+                //  style={currentProject.logoStyle}
+                >
 
-                    <img src={currentProject.logo} alt="" className='w-10 h-10 shadow-sm' />
+                    <img src={currentProject.logo} alt="" className='w-20 h-20 rounded-md shadow-sm object-contain object-center  ' />
                 </div>
 
                 <div className='flex flex-col gap-5 text-white-600 my-5 '>
@@ -61,8 +63,7 @@ if (direction==='previous') {
                             })}
                         </div>
 
-                            <a className='flex items-center gap-2 cursor-pointer' href={currentProject.href} 
-                            >
+                            <a className='flex items-center gap-2 cursor-pointer h-6 w-full' href={currentProject.href} >
                                 <p className='text-white'>check live site</p>
                                 <img className='w-3 h-3' src="/assets/arrow-up.png" alt="" />
                             </a>
