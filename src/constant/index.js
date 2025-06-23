@@ -152,6 +152,56 @@ export const navLinks = [
       ],
     },
     {
+      title: 'chatify - chat and video call platform',
+      desc: 
+      'this is a platform made using mern stack and stream where a user can register to make new friends and have a conversation with them that can be through chatting or throug a video call',
+      subdesc:
+      ''
+      ,
+      href: 'https://chatify-33jr.onrender.com',
+      texture: '/textures/project/chatify.png',
+      logo: '/assets/chatify-logo.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'javaScript',
+          path: '/assets/javascript.png',
+        },{
+          id: 3,
+          name: 'mongodb',
+          path: '/assets/mongodb.png',
+        },
+        {
+          id: 4,
+          name: 'express js ',
+          path: '/assets/nodejs.png',
+        },{
+          
+        }
+        // {
+        //   id: 4,
+        //   name: 'Framer Motion',
+        //   path: '/assets/gsap.png',
+        // },
+      ],
+    },
+     {
       title: 'LOCALINK - a vendor detecting website',
       desc: 'this is a fullstack MERN project which focuses on providing feature to a user to searh for a local vendor in a new locality and provides vendor an ability to use online services for better bussiness outcomes ',
       subdesc:
@@ -186,45 +236,6 @@ export const navLinks = [
           name: 'express js ',
           path: '/assets/nodejs.png',
         },
-      ],
-    },
-    {
-      title: 'React - TO-Do List',
-      desc: 
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      subdesc:
-      ''
-      ,
-      href: '',
-      texture: '/textures/project/project2.png',
-      logo: '/assets/todo-list-logo.webp',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'javaScript',
-          path: '/assets/javascript.png',
-        },
-        // {
-        //   id: 4,
-        //   name: 'Framer Motion',
-        //   path: '/assets/gsap.png',
-        // },
       ],
     },
     // {

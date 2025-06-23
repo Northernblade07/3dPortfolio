@@ -64,7 +64,7 @@ const About = () => {
 
                 <BentoTilt className='col-span-1 xl:row-span-3 sm:row-span-1'>
                     <div className='grid-container'>
-                        <img src="https://imgs.search.brave.com/-CvqeZUFi64amV7y3rBcW-6r5EInU-VwyQC0LGgkHQk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9lMS5w/eGZ1ZWwuY29tL2Rl/c2t0b3Atd2FsbHBh/cGVyLzczMC81MTAv/ZGVza3RvcC13YWxs/cGFwZXItbWVybi1z/dGFjay5qcGc" alt="" className='w-full sm:h-[266px] object-contain h-fit' />
+                        <img src='/assets/mern.webp' alt="" className='w-full sm:h-[266px] object-contain h-fit' />
                         <div>
                             <p className='grid-headtext'>Mern stack</p>
                             <p className='grid-subtext'>
