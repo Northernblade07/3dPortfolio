@@ -4,6 +4,7 @@ import React from 'react'
 import { Suspense } from 'react'
 import Car from './Car'
 import CanvasLoader from './CanvasLoader'
+import { navLinks } from '../constant'
 // import { OrbitControls } from 'three/examples/jsm/Addons.js'
 const Footer = () => {
     return (
@@ -24,10 +25,15 @@ const Footer = () => {
                 <div className=''>
                     <p className='text-xl font-medium mb-5'> This was about me  </p>
                     <ul className='flex flex-col gap-1 '>
-                        <li>Home</li>
-                        <li>Contact</li>
-                        <li>ABOUT</li>
-                        <li>Cart</li>
+                       {
+                                 navLinks.map((item)=>{
+                                   return <li  key={item.id}>
+                                     <a href={item.href}>
+                                     {item.name}
+                                     </a>
+                                     </li>
+                                 })
+                               }
                         <li>Privacy Policy</li>
                     </ul>
                 </div>

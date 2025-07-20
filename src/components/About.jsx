@@ -108,7 +108,7 @@ const About = () => {
 
 
                 <BentoTilt className='col-span-2 xl:row-span-3'>
-                    <div className='grid-container'>
+                    <div  className='grid-container'>
                         <img src="/assets/grid3.png" alt="" className='w-full sm:h-[266px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'> My passion for coding</p>
@@ -121,8 +121,8 @@ const About = () => {
                 </BentoTilt>
 
 
-                <BentoTilt className='xl:col-span-1 md:col-span-1 col-span-2 xl:row-span-2' id='contact'>
-                    <div className='grid-container'>
+                <BentoTilt  className='xl:col-span-1 md:col-span-1 col-span-2 xl:row-span-2'>
+                    <div id='contact' className='grid-container'>
                         <img src="/assets/grid4.png" alt="" className='w-full md:h-[126px] h-fit object-cover sm:object-top sm:h-[276px]' />
 
                         <div className='space-y-2'>
