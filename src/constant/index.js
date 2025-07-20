@@ -202,13 +202,12 @@ export const navLinks = [
       ],
     },
      {
-      title: 'LOCALINK - a vendor detecting website',
-      desc: 'this is a fullstack MERN project which focuses on providing feature to a user to searh for a local vendor in a new locality and provides vendor an ability to use online services for better bussiness outcomes ',
-      subdesc:
-        '',
-      href: '',
-      texture: '/textures/project/project3.png',
-      logo: '/assets/logo.png',
+      title: 'Socially - a social media web app ',
+      desc: "this is a fullstack Next js project in which a user can create a post and add a image and gets authenticated by Clerk ,can  check  its profile and follow any user's profile, can like any post and comment on it , gets notification for any follow , like ,comment",
+      subdesc:'',
+      href: 'https://socially-one-nu.vercel.app/',
+      texture: '/textures/project/socially-project.png',
+      logo: '/assets/socially-logo.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -218,8 +217,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Next.js',
+          path: '/assets/nextjs-icon.webp',
         },
         {
           id: 2,
@@ -228,14 +227,16 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'mongodb',
-          path: '/assets/mongodb.png',
+          name: 'prisma',
+          path: '/assets/prisma.webp',
         },
-        {
+         {
           id: 4,
-          name: 'express js ',
-          path: '/assets/nodejs.png',
+          name: 'NeonDb',
+          path: '/assets/neon.webp',
         },
+
+
       ],
     },
     // {
