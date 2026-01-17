@@ -4,10 +4,13 @@ import { useTexture } from '@react-three/drei'
 
 const HeroImage = ({ position = [10, 10, 10], scale = [4, 2.5, 1] }) => {
   const meshRef = useRef()
-  const texture = useTexture('/hero.gif') // 👈 your image
+  const texture = useTexture('/hero.png') // 👈 your image
 
-  useFrame(({ mouse }) => {
+  useFrame(({ mouse , clock }) => {
     if (!meshRef.current) return
+        meshRef.current.position.y =
+      position[1] + Math.sin(clock.elapsedTime) * 0.20
+
 
     meshRef.current.rotation.y = mouse.x * 0.25
     meshRef.current.rotation.x = mouse.y * 0.15
