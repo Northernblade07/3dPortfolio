@@ -73,138 +73,88 @@ export const navLinks = [
   ];
   
   export const myProjects = [
+    {
+    title: 'CHATIFY - Microservices-Based Distributed Chat',
+    desc: 'A highly scalable real-time chat system engineered with independent User, Chat, and Mail services. Designed to handle asynchronous processing and secure verification seamlessly.',
+    subdesc:
+      'Optimized event-driven workflows using RabbitMQ and Redis OTP authentication. Containerized with Docker and deployed on AWS EC2, enabling low-latency messaging via Socket.io in a production-ready environment.',
+    href: 'http://51.20.73.105:3000',
+    texture: '/textures/project/chatify.png',
+    logo: '/assets/chatify-logo.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Node.js',
+        path: '/assets/nodejs.png',
+      },
+      {
+        id: 3,
+        name: 'MongoDB',
+        path: '/assets/mongodb.png',
+      },
+      {
+        id: 4,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      },
+    ],
+  },
     
-    
-    {
-      title: 'Zentry - animated gaming website',
-      desc: 'this is a clone of an award winning website, that is , Zentry .This project was build to learn how to integrate animation in a frontend website using Reactjs and Gsap animation',
-      subdesc:
-        '',
-      href: 'https://zentrygaming.vercel.app/',
-      texture: '/textures/project/project5.png',
-      logo: '/assets/zentry-logo.webp',
-      logoStyle: {
-        backgroundColor: '#60f5a1',
-        background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-      },
-      spotlight: '/assets/spotlight3.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'javascript',
-          path: '/assets/javascript.png',
-        },
-        {
-          id: 4,
-          name: 'Gsap animation',
-          path: '/assets/gsap.png',
-        },
-      ],
+
+  {
+    title: 'FITLY AI - Spring Boot Microservices Platform',
+    desc: 'An AI-powered fitness platform featuring a robust microservices architecture. It utilizes API Gateway, Eureka Service Discovery, and a centralized Config Server for scalable routing and data management.',
+    subdesc:
+      'Built with Spring Boot and React, featuring secure identity management via Keycloak. Deployed on AWS EC2 utilizing Docker and Caddy, with RabbitMQ handling event streaming across PostgreSQL and MongoDB databases.',
+    href: 'https://fitly-ai.duckdns.org/dashboard/',
+    texture: '/textures/project/project2.png', // Update with actual texture path if available
+    logo: '/assets/project-logo2.png', // Update with actual logo path if available
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
     },
-    {
-      title: 'Apple-clone - 3d animated apple wesite',
-      desc: 'this is a clone of official Apple website showcasing iphone 15 pro. I made it to learn more advance frontend technology ,that is , React js including Gsap animation and Three js ',
-      subdesc:
-        '',
-      href: 'https://apple-clone3d.vercel.app/',
-      texture: '/textures/project/project4.png',
-      logo: '/assets/apple-logo.webp',
-      logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
       },
-      spotlight: '/assets/spotlight4.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'three js',
-          path: '/assets/threejs.svg',
-        },
-        {
-          id: 4,
-          name: 'Gsap animation',
-          path: '/assets/gsap.png',
-        },
-      ],
-    },
-    {
-      title: 'chatify - chat and video call platform',
-      desc: 
-      'this is a platform made using mern stack and stream where a user can register to make new friends and have a conversation with them that can be through chatting or throug a video call',
-      subdesc:
-      ''
-      ,
-      href: 'https://chatify-33jr.onrender.com',
-      texture: '/textures/project/chatify.png',
-      logo: '/assets/chatify-logo.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      {
+        id: 2,
+        name: 'Spring Boot',
+        path: '/assets/springboot.png', // Add placeholder or actual icon path
       },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'javaScript',
-          path: '/assets/javascript.png',
-        },{
-          id: 3,
-          name: 'mongodb',
-          path: '/assets/mongodb.png',
-        },
-        {
-          id: 4,
-          name: 'express js ',
-          path: '/assets/nodejs.png',
-        },{
-          
-        }
-        // {
-        //   id: 4,
-        //   name: 'Framer Motion',
-        //   path: '/assets/gsap.png',
-        // },
-      ],
-    },
-     {
+      {
+        id: 3,
+        name: 'Docker',
+        path: '/assets/docker.png', // Add placeholder or actual icon path
+      },
+      {
+        id: 4,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      },
+    ],
+  },
+
+    {
       title: 'Socially - a social media web app ',
-      desc: "this is a fullstack Next js project in which a user can create a post and add a image and gets authenticated by Clerk ,can  check  its profile and follow any user's profile, can like any post and comment on it , gets notification for any follow , like ,comment",
-      subdesc:'',
+desc: "A comprehensive social media platform where users can create posts, share images, follow profiles, and engage through likes and comments with real-time notifications.",
+      subdesc:
+      "Engineered to increase session duration by 25% and reduce page load times by 25%. Integrated Clerk-based authentication, successfully reducing login failures by 40% and boosting user retention by 10%.",
       href: 'https://socially-one-nu.vercel.app/',
       texture: '/textures/project/socially-project.png',
       logo: '/assets/socially-logo.png',
@@ -239,6 +189,205 @@ export const navLinks = [
 
       ],
     },
+{
+    title: 'Team Task Manager - MERN Stack Assessment',
+    desc: 'A full-stack task management solution built as a comprehensive company assessment for ethara.ai, featuring a mobile-responsive dashboard and isolated team environments.',
+    subdesc:
+      'Developed under strict deadlines using React.js, Node.js, Express, and MongoDB. Implemented secure user authentication and role-based access control, alongside comprehensive deployment configurations and logging.',
+    href: 'https://github.com/Northernblade07', // Update with actual live link or repo if available
+    texture: '/textures/project/taskmanager.png', // Add actual asset
+    logo: '/assets/taskmanager-logo.png', // Add actual asset
+    logoStyle: {
+      backgroundColor: '#1E1B4B',
+      border: '0.2px solid #312E81',
+      boxShadow: '0px 0px 60px 0px #818CF84D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Node.js',
+        path: '/assets/nodejs.png',
+      },
+      {
+        id: 3,
+        name: 'MongoDB',
+        path: '/assets/mongodb.png',
+      },
+      {
+        id: 4,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      },
+    ],
+  },
+  
+   {
+    title: 'Zentry - Animated Gaming Website Clone',
+    desc: 'A dynamic frontend clone of the award-winning Zentry website. Built to master the integration of complex scrolling animations and modern UI transitions.',
+    subdesc:
+      'Developed utilizing React.js and GSAP to orchestrate timeline-based animations, delivering a highly interactive and visually engaging user experience.',
+    href: 'https://zentrygaming.vercel.app/',
+    texture: '/textures/project/project5.png',
+    logo: '/assets/zentry-logo.webp',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'JavaScript',
+        path: '/assets/javascript.png',
+      },
+      {
+        id: 4,
+        name: 'GSAP Animation',
+        path: '/assets/gsap.png',
+      },
+    ],
+  },
+   {
+    title: 'Apple iPhone 15 Pro - 3D Showcase',
+    desc: 'An immersive clone of the official Apple product website designed to showcase the iPhone 15 Pro using advanced 3D rendering in the browser.',
+    subdesc:
+      'Engineered with React.js, GSAP for smooth scroll-triggered animations, and Three.js for rendering and manipulating high-fidelity 3D models directly in the DOM.',
+    href: 'https://apple-clone3d.vercel.app/',
+    texture: '/textures/project/project4.png',
+    logo: '/assets/apple-logo.webp',
+    logoStyle: {
+      backgroundColor: '#0E1F38',
+      border: '0.2px solid #0E2D58',
+      boxShadow: '0px 0px 60px 0px #2F67B64D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'Three.js',
+        path: '/assets/threejs.svg',
+      },
+      {
+        id: 4,
+        name: 'GSAP Animation',
+        path: '/assets/gsap.png',
+      },
+    ],
+  },
+  {
+    title: 'SatyaShield - Multilingual AI Fake News Detection',
+    desc: 'An AI-powered verification platform utilizing the Llama 70B model to analyze and detect multilingual fake news.',
+    subdesc:
+      'Architected a Retrieval-Augmented Generation (RAG) pipeline to cross-reference queries against verified data sources, significantly increasing response accuracy. Designed comprehensive ER diagrams and technical documentation to structure the backend data flow.',
+    href: 'https://github.com/Northernblade07/Fake_News_Detection', // Update with actual live link or repo if available
+    texture: '/textures/project/satyashield.png', // Add actual asset
+    logo: '/assets/satyashield-logo.png', // Add actual asset
+    logoStyle: {
+      backgroundColor: '#0F172A',
+      border: '0.2px solid #1E293B',
+      boxShadow: '0px 0px 60px 0px #38BDF84D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Python',
+        path: '/assets/python.png', // Ensure this asset exists in your folder
+      },
+      {
+        id: 3,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      },
+    ],
+  },
+    // {
+    //   title: 'chatify - chat and video call platform',
+    //   desc: 
+    //   'this is a platform made using mern stack and stream where a user can register to make new friends and have a conversation with them that can be through chatting or throug a video call',
+    //   subdesc:
+    //   ''
+    //   ,
+    //   href: 'https://chatify-33jr.onrender.com',
+    //   texture: '/textures/project/chatify.png',
+    //   logo: '/assets/chatify-logo.png',
+    //   logoStyle: {
+    //     backgroundColor: '#2A1816',
+    //     border: '0.2px solid #36201D',
+    //     boxShadow: '0px 0px 60px 0px #AA3C304D',
+    //   },
+    //   spotlight: '/assets/spotlight1.png',
+    //   tags: [
+    //     {
+    //       id: 1,
+    //       name: 'React.js',
+    //       path: '/assets/react.svg',
+    //     },
+    //     {
+    //       id: 2,
+    //       name: 'TailwindCSS',
+    //       path: 'assets/tailwindcss.png',
+    //     },
+    //     {
+    //       id: 3,
+    //       name: 'javaScript',
+    //       path: '/assets/javascript.png',
+    //     },{
+    //       id: 3,
+    //       name: 'mongodb',
+    //       path: '/assets/mongodb.png',
+    //     },
+    //     {
+    //       id: 4,
+    //       name: 'express js ',
+    //       path: '/assets/nodejs.png',
+    //     },{
+          
+    //     }
+    //     // {
+    //     //   id: 4,
+    //     //   name: 'Framer Motion',
+    //     //   path: '/assets/gsap.png',
+    //     // },
+    //   ],
+    // },
+   
+
+
     // {
     //   title: 'Imaginify - AI Photo Manipulation App',
     //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
@@ -364,10 +513,10 @@ export const tech = [
     name: "git",
     icon: '/assets/git.png',
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
+  {
+    name: "Spring boot",
+    icon: '/assets/springboot.png',
+  },
   // {
   //   name: "docker",
   //   icon: docker,
