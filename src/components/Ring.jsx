@@ -1,54 +1,27 @@
-import { useGSAP } from '@gsap/react';
+import { useRef } from 'react';
+import { useFrame } from '@react-three/fiber';
 import { Center, useTexture } from '@react-three/drei';
-import gsap from 'gsap';
-import { useCallback, useRef } from 'react';
 
 const Rings = ({ position }) => {
-  const refList = useRef([]);
-  const getRef = useCallback((mesh) => {
-    if (mesh && !refList.current.includes(mesh)) {
-      refList.current.push(mesh);
-    }
-  }, []);
+  const groupRef = useRef();
+  const texture = useTexture('/textures/rings.png');
 
-  const texture = useTexture('textures/rings.png');
-
-  useGSAP(
-    () => {
-      if (refList.current.length === 0) return;
-
-      refList.current.forEach((r) => {
-        r.position.set(position[0], position[1], position[2]);
-      });
-
-      gsap
-        .timeline({
-          repeat: -1,
-          repeatDelay: 0.5,
-        })
-        .to(
-          refList.current.map((r) => r.rotation),
-          {
-            y: `+=${Math.PI * 2}`,
-            x: `-=${Math.PI * 2}`,
-            duration: 2.5,
-            stagger: {
-              each: 0.15,
-            },
-          },
-        );
-    },
-    {
-      dependencies: position,
-    },
-  );
+  // Rotate the rings natively based on delta time to keep speed consistent regardless of device refresh rate
+  useFrame((_, delta) => {
+    if (!groupRef.current) return;
+    
+    groupRef.current.children.forEach((mesh, index) => {
+      mesh.rotation.y += delta * 0.5 * (index + 1);
+      mesh.rotation.x -= delta * 0.25 * (index + 1);
+    });
+  });
 
   return (
-    <Center>
-      <group scale={0.5}>
+    <Center position={position}>
+      <group scale={0.5} ref={groupRef}>
         {Array.from({ length: 4 }, (_, index) => (
-          <mesh key={index} ref={getRef}>
-            <torusGeometry args={[(index + 1) * 0.5, 0.1]}></torusGeometry>
+          <mesh key={index}>
+            <torusGeometry args={[(index + 1) * 0.5, 0.1]} />
             <meshMatcapMaterial matcap={texture} toneMapped={false} />
           </mesh>
         ))}

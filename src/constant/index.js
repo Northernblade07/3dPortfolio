@@ -118,8 +118,8 @@ export const navLinks = [
     subdesc:
       'Built with Spring Boot and React, featuring secure identity management via Keycloak. Deployed on AWS EC2 utilizing Docker and Caddy, with RabbitMQ handling event streaming across PostgreSQL and MongoDB databases.',
     href: 'https://fitly-ai.duckdns.org/dashboard/',
-    texture: '/textures/project/project2.png', // Update with actual texture path if available
-    logo: '/assets/project-logo2.png', // Update with actual logo path if available
+    texture: '/textures/project/fitly.png', // Update with actual texture path if available
+    logo: '/textures/project/fitly_logo.png', // Update with actual logo path if available
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -135,7 +135,7 @@ export const navLinks = [
       {
         id: 2,
         name: 'Spring Boot',
-        path: '/assets/springboot.png', // Add placeholder or actual icon path
+        path: '/assets/Spring_boot.png', // Add placeholder or actual icon path
       },
       {
         id: 3,
@@ -194,9 +194,9 @@ desc: "A comprehensive social media platform where users can create posts, share
     desc: 'A full-stack task management solution built as a comprehensive company assessment for ethara.ai, featuring a mobile-responsive dashboard and isolated team environments.',
     subdesc:
       'Developed under strict deadlines using React.js, Node.js, Express, and MongoDB. Implemented secure user authentication and role-based access control, alongside comprehensive deployment configurations and logging.',
-    href: 'https://github.com/Northernblade07', // Update with actual live link or repo if available
-    texture: '/textures/project/taskmanager.png', // Add actual asset
-    logo: '/assets/taskmanager-logo.png', // Add actual asset
+    href: 'https://project-managemnet-mern.onrender.com/', // Update with actual live link or repo if available
+    texture: '/textures/project/task.png', // Add actual asset
+    logo: '/textures/project/task_logo.png', // Add actual asset
     logoStyle: {
       backgroundColor: '#1E1B4B',
       border: '0.2px solid #312E81',
@@ -310,7 +310,7 @@ desc: "A comprehensive social media platform where users can create posts, share
       'Architected a Retrieval-Augmented Generation (RAG) pipeline to cross-reference queries against verified data sources, significantly increasing response accuracy. Designed comprehensive ER diagrams and technical documentation to structure the backend data flow.',
     href: 'https://github.com/Northernblade07/Fake_News_Detection', // Update with actual live link or repo if available
     texture: '/textures/project/satyashield.png', // Add actual asset
-    logo: '/assets/satyashield-logo.png', // Add actual asset
+    logo: '/textures/project/satya_logo.png', // Add actual asset
     logoStyle: {
       backgroundColor: '#0F172A',
       border: '0.2px solid #1E293B',

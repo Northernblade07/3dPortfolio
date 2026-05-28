@@ -92,7 +92,7 @@ const Projects = () => {
 
             <Center>
               <Suspense fallback={<CanvasLoader />}>
-                <group scale={2} position={[0, -2, 0]} rotation={[0, 0, 0]}>
+                <group scale={2.3} position={[0, -3, 0]} rotation={[0, 0, 0]}>
                   <ComputerDemo texture={currentProject.texture} />
                 </group>
               </Suspense>
