@@ -515,7 +515,7 @@ export const tech = [
   },
   {
     name: "Spring boot",
-    icon: '/assets/springboot.png',
+    icon: '/assets/Spring_boot.png',
   },
   // {
   //   name: "docker",
